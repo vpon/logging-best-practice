@@ -192,3 +192,19 @@ Here is some examples:
         throw new RuntimeException("Failed to do something", ex)
     }
 
+
+## Responsibility of Roles
+
+### RD
+ * Construct correct logs
+ * Review logs
+
+### QA
+ * Verify log level
+ * Verify log context
+
+### OP/Devop
+ * Report incorrect log level
+ * Report missing logs
+ * Report missing log context
+
